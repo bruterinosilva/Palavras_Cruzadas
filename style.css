@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.class_perguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div_resposta{
+    font-size: 20px;
+    transition: 1s;
+}

@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+
     <title>Document</title>
 </head>
+
 <body>
     <div class="class_perguntas">
-        Unidade central de processamento? <input type="text" onkeyup="check1()" id="input_resposta1" placeholder="3 letras" class="input_pergunta1"><br>
+        <div>
+            1. Unidade central de processamento?
+            <input type="text" onkeyup="check1()" id="input_resposta1" placeholder="3 letras"
+                class="input_pergunta1"><br>
+        </div>
         <div id="div_resposta">Olá!</div><br>
         <div id="palavras-cruzadas" class="palavras-cruzadas">
-            <div class="bloco bloco_letra_c"></div>
-            <div class="bloco bloco_letra_p"></div>
-            <div class="bloco bloco_letra_u"></div>
+            <div class="bloco"><div id="bloco_letra_c"></div></div>
+            <div class="bloco"><div id="bloco_letra_p"></div></div>
+            <div class="bloco"><div id="bloco_letra_u"></div></div>
         </div>
-       
+
     </div>
 </body>
+
 </html>
 
 <script src="checagens.js"></script>

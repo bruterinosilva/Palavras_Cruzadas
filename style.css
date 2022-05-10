@@ -3,13 +3,18 @@ body{
     padding: 0;
 }
 
+.corpo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .class_perguntas{
     padding: 1.5px;
-    margin-top: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
+    font-size: 20px;
 }
 
 #div_resposta{
@@ -19,20 +24,22 @@ body{
 }
 
 
-.input_pergunta1{
+.input_de_pergunta{
     width: 100px;
-    border: 2px solid black;
+    border: 2px solid blue;
     border-radius: 3px;
 }
 
 .palavras-cruzadas{
     width: 750px;
-    height: 500px;
+    height: 600px;
     border: 5px solid aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bloco{
-    float: left;
     width: 40px;
     height: 40px;
     border: solid 2px black;
@@ -43,8 +50,11 @@ body{
     font-size: 25px;
 }
 
-
-@keyframes fadeInLetters{
+.linha1{
+    display: flex;
+    flex-direction: column;
+}
+@keyframes fadeIn{
     from {
         opacity: 0;
     }

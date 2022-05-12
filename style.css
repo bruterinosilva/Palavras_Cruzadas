@@ -5,7 +5,7 @@ body{
 
 .corpo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .class_perguntas{
@@ -42,22 +42,34 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.table{
+    border-spacing: 0;
+    border-collapse:unset;
 }
 
-.bloco{
-    width: 40px;
+.desativado{
     height: 40px;
-    border: solid 2px black;
-    border-radius: 3px;
+    width: 40px;
+    background-color: gray;
+    border: none;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 25px;
+    align-items: center;
+    font-size: 30px;
+    color: white;
 }
-
-.linha1{
-    display: flex;
-    flex-direction: column;
+.bloco_resposta{
+    height: 36px;
+    width: 36px;
+    background-color: whitesmoke;
+    border: 2px solid goldenrod;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px;
+    transition: 0,8s;
+    font-size: 0;
 }
 @keyframes fadeIn{
     from {

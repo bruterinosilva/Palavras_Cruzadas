@@ -139,7 +139,7 @@ function check6() {
             input_resposta6.style.borderColor = `rgb(0, 163, 16)`
             input_resposta6.style.color = `white`
             resposta_correta()
-            organizar_letras_resposta7()
+            organizar_letras_resposta6()
             
         }
         else {
@@ -315,27 +315,222 @@ function check13() {
 
 
     function resposta_errada() {
-
+        console.log('errado')
         desaparecer()
     }
 
-    function respota_correta() {
-
+    function resposta_correta() {
+        console.log('certo!')
         desaparecer()
     }
     // faz o sinal de "errado" ou "certo" sumir após um pequeno delay
     function  desaparecer(){
-        setTimeout()
+        setTimeout(() => {
+            console.log("Delayed for 1 second.");
+          }, "1000")
     }
 
-    // Esse comando é pra colocar as letras nos quadros onde vai estar a palavra-cruzada
-    function organizar_letras_resposta1() {
-        if (correto1 == true) {
-            document.getElementById("bloco_letra_c").animate = {
+    // Estes comandos é pra colocar as letras nos quadros onde vai estar a palavra-cruzada
+    function organizar_letras_resposta1(){
+        if (correto1){
+            bloco15x7.innerHTML = 'R'
+            bloco15x8.innerHTML = 'O'
+            bloco15x9.innerHTML = 'M'
+            bloco15x7.style.opacity = 1
+            bloco15x8.style.opacity = 1
+            bloco15x9.style.opacity = 1
+        }
+    }
 
-            }
-            bloco_letra_c.innerHTML = 'C'
-            bloco_letra_p.innerHTML = 'P'
-            bloco_letra_u.innerHTML = 'U'
+
+    function organizar_letras_resposta2() {
+        if (correto2){
+            bloco6x5.innerHTML = 'M'
+            bloco6x6.innerHTML = 'A'
+            bloco6x7.innerHTML = 'S'
+            bloco6x8.innerHTML = 'S'
+            bloco6x9.innerHTML = 'A'
+            bloco6x5.style.opacity = 1
+            bloco6x6.style.opacity = 1
+            bloco6x7.style.opacity = 1
+            bloco6x8.style.opacity = 1
+            bloco6x9.style.opacity = 1
+        }
+    }
+    
+    function organizar_letras_resposta3() {
+        if (correto3) {
+            bloco2x5.innerHTML = 'D'
+            bloco2x6.innerHTML = 'M'
+            bloco2x7.innerHTML = 'A'
+            bloco2x5.style.opacity = 1
+            bloco2x6.style.opacity = 1
+            bloco2x7.style.opacity = 1
+        }
+  
+    }
+    function organizar_letras_resposta4(){
+        if(correto4){
+            bloco2x7.innerHTML = 'A'
+            bloco3x7.innerHTML = 'D'
+            bloco4x7.innerHTML = 'R'
+            bloco5x7.innerHTML = 'E'
+            bloco6x7.innerHTML = 'S'
+            bloco7x7.innerHTML = 'S'
+            bloco8x7.innerHTML = 'B'
+            bloco9x7.innerHTML = 'U'
+            bloco10x7.innerHTML = 'S'
+            bloco2x7.style.opacity = 1
+            bloco3x7.style.opacity = 1
+            bloco4x7.style.opacity = 1
+            bloco5x7.style.opacity = 1
+            bloco6x7.style.opacity = 1
+            bloco7x7.style.opacity = 1
+            bloco8x7.style.opacity = 1
+            bloco9x7.style.opacity = 1
+            bloco10x7.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta5(){
+        if(correto5){
+            bloco4x9.innerHTML = 'F'
+            bloco5x9.innerHTML = 'L'
+            bloco6x9.innerHTML = 'A'
+            bloco7x9.innerHTML = 'S'
+            bloco8x9.innerHTML = 'S'
+            bloco4x9.style.opacity = 1
+            bloco5x9.style.opacity = 1
+            bloco6x9.style.opacity = 1
+            bloco7x9.style.opacity = 1
+            bloco8x9.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta6(){
+        if(correto6){
+            bloco13x9.innerHTML = 'R'
+            bloco14x9.innerHTML = 'A'
+            bloco15x9.innerHTML = 'M'
+            bloco13x9.style.opacity = 1
+            bloco14x9.style.opacity = 1
+            bloco15x9.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta7(){
+        if(correto7){
+            bloco9x2.innerHTML = 'D'
+            bloco9x3.innerHTML = 'A'
+            bloco9x4.innerHTML = 'T'
+            bloco9x5.innerHTML = 'A'
+            bloco9x6.innerHTML = 'B'
+            bloco9x7.innerHTML = 'U'
+            bloco9x8.innerHTML = 'S'
+            bloco9x2.style.opacity = 1
+            bloco9x3.style.opacity = 1
+            bloco9x4.style.opacity = 1
+            bloco9x5.style.opacity = 1
+            bloco9x6.style.opacity = 1
+            bloco9x7.style.opacity = 1
+            bloco9x8.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta8(){
+        if(correto8){
+            bloco11x8.innerHTML = 'C'
+            bloco11x9.innerHTML = 'P'
+            bloco11x10.innerHTML = 'U'
+            bloco11x8.style.opacity = 1
+            bloco11x9.style.opacity = 1
+            bloco11x10.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta9(){
+        if(correto9){
+            bloco7x3.innerHTML = 'D'
+            bloco8x3.innerHTML = 'U'
+            bloco9x3.innerHTML = 'A'
+            bloco10x3.innerHTML = 'L'
+            bloco11x3.innerHTML = 'C'
+            bloco12x3.innerHTML = 'O'
+            bloco13x3.innerHTML = 'R'
+            bloco14x3.innerHTML = 'E'
+            bloco7x3.style.opacity = 1
+            bloco8x3.style.opacity = 1
+            bloco9x3.style.opacity = 1
+            bloco10x3.style.opacity = 1
+            bloco11x3.style.opacity = 1
+            bloco12x3.style.opacity = 1
+            bloco13x3.style.opacity = 1
+            bloco14x3.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta10(){
+        if(correto10){
+            bloco12x15.innerHTML = 'C'
+            bloco13x15.innerHTML = 'S'
+            bloco12x15.style.opacity = 1
+            bloco13x15.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta11(){
+        if(correto11){
+            bloco10x12.innerHTML = 'E'
+            bloco11x12.innerHTML = 'P'
+            bloco12x12.innerHTML = 'R'
+            bloco13x12.innerHTML = 'O'
+            bloco14x12.innerHTML = 'M'
+            bloco10x12.style.opacity = 1
+            bloco11x12.style.opacity = 1
+            bloco12x12.style.opacity = 1
+            bloco13x12.style.opacity = 1
+            bloco14x12.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta12(){
+        if(correto12){
+            bloco13x3.innerHTML = 'R'
+            bloco13x4.innerHTML = 'E'
+            bloco13x5.innerHTML = 'G'
+            bloco13x6.innerHTML = 'I'
+            bloco13x7.innerHTML = 'S'
+            bloco13x8.innerHTML = 'T'
+            bloco13x9.innerHTML = 'R'
+            bloco13x10.innerHTML = 'A'
+            bloco13x11.innerHTML = 'D'
+            bloco13x12.innerHTML = 'O'
+            bloco13x13.innerHTML = 'R'
+            bloco13x14.innerHTML = 'E'
+            bloco13x15.innerHTML = 'S'
+            bloco13x3.style.opacity = 1
+            bloco13x4.style.opacity = 1
+            bloco13x5.style.opacity = 1
+            bloco13x6.style.opacity = 1
+            bloco13x7.style.opacity = 1
+            bloco13x8.style.opacity = 1
+            bloco13x9.style.opacity = 1
+            bloco13x10.style.opacity = 1
+            bloco13x11.style.opacity = 1
+            bloco13x12.style.opacity = 1
+            bloco13x13.style.opacity = 1
+            bloco13x14.style.opacity = 1
+            bloco13x15.style.opacity = 1
+        }
+    }
+
+    function organizar_letras_resposta13(){
+        if(correto13){
+            bloco11x10.innerHTML = 'U'
+            bloco12x10.innerHTML = 'L'
+            bloco13x10.innerHTML = 'A'
+            bloco11x10.style.opacity = 1
+            bloco12x10.style.opacity = 1
+            bloco13x10.style.opacity = 1
         }
     }

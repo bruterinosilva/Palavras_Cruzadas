@@ -51,8 +51,8 @@ body{
 }
 
 .desativado{
-    height: 40px;
-    width: 40px;
+    height: 38px;
+    width: 38px;
     background-color: gray;
     border: none;
     display: flex;
@@ -62,14 +62,25 @@ body{
     color: white;
 }
 .bloco_resposta{
-    height: 36px;
-    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
     background-color: whitesmoke;
     border: 2px solid goldenrod;
     border-radius: 3px;
     box-shadow: 2px 2px 3px;
-    transition: 0,8s;
     font-size: 0;
+}
+.letra{
+    font-size: 24px;
+    color: red;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    transition: 0.8s;
+    opacity: 0;
 }
 @keyframes fadeIn{
     from {

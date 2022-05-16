@@ -1,25 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Righteous', cursive;
+}
+
+header{
+    background: rgb(218,145,224);
+    background: linear-gradient(90deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+    padding: 10px 0;
+    border-bottom: solid 6px #4A3F5B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#resp{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 3px #4A3F5B;
+    border-radius: 15px;
+    width: 300px;
+    background: rgb(218,145,224);
+    background: linear-gradient(90deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+    padding: 10px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#resp.active{
+    opacity: 1;
+}
+
+.resp_title, .resp_vidas{
+    color: #4A3F5B;
+    margin-bottom: 5px;
+}
+.resp_btn{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 3px solid #4A3F5B;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s ;
+    background: #da91e0;
+    color: #4A3F5B;
+    text-decoration: none;
+}
+
 body{
     margin: 0;
     padding: 0;
+    background-image: url("./fundo_pixel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
 }
 
 .corpo{
+    padding: 0 20px;
+    border: 5px solid #4A3F5B;
+    border-radius: 30px;
+    background-color:  #4877b3e3;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+footer{
+    background: rgb(218,145,224);
+    background: linear-gradient(90deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: solid 6px #4A3F5B;
+}
+
+footer h2 {
+    font-size: 15px;
+    text-align: center;
+    color: #4A3F5B;
+}
+
+h1{
+    text-align:start;
+    color: #4A3F5B;
+    font-size: 30px;
+}
+
+.vidas img {
+    width: 40px;
 }
 
 .class_perguntas{
-    padding: 1.5px;
     display: flex;
-    justify-content: center;
-    align-items: left;
     flex-direction: column;
     font-size: 20px;
     transition: 1s;
+    color: white;
+    max-height: 602px;
+    overflow-y: scroll;
+}
+.class_perguntas_box{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.class_perguntas_box button{
+    margin-left: 20px;
+    border: 3px solid #4A3F5B;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.5s ;
+    background: #da91e0;
+    color: #4A3F5B;
+}
+
+
+.class_perguntas_box button:hover{
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
 }
 
 .pergunta_geral{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #4A3F5B;
+    display: flex;
+    flex-direction: column;
+}
+.pergunta_geral span{
+    font-size: 16px;
 }
 
 #div_resposta{
@@ -30,19 +152,18 @@ body{
 
 
 .input_de_pergunta{
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 3px;
+    width: 150px;
+    border: 2px solid #4A3F5B;;
+    border-radius: 6px;
+    padding: 5px 10px;
 }
 
 .palavras-cruzadas{
     width: 750px;
     height: 600px;
-    border: 5px solid aqua;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
     border-radius: 10px;
 }
 .table{
@@ -53,7 +174,6 @@ body{
 .desativado{
     height: 38px;
     width: 38px;
-    background-color: gray;
     border: none;
     display: flex;
     justify-content: center;
@@ -68,14 +188,14 @@ body{
     height: 34px;
     width: 34px;
     background-color: whitesmoke;
-    border: 2px solid goldenrod;
+    border: 2px solid #4A3F5B;
     border-radius: 3px;
     box-shadow: 2px 2px 3px;
     font-size: 0;
 }
 .letra{
     font-size: 24px;
-    color: red;
+    color: black;
     height: 30px;
     width: 30px;
     text-align: center;
@@ -90,3 +210,25 @@ body{
         opacity: 1;
     }
 }
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(218,145,224);
+    background: linear-gradient(180deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+    border: 2px solid #4A3F5B;
+    
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+background: #555;
+} */

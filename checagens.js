@@ -19,10 +19,10 @@ function check1() {
             document.getElementById('input_resposta1').disabled = true
             correto1 = true
             pergunta1.style.color = `rgb(0, 255, 42)`
-            pergunta1.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta1.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta1.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta1.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta1.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta1.style.color = `white`
+            input_resposta1.style.color = `black`
             resposta_correta()
             organizar_letras_resposta1()
             
@@ -42,10 +42,10 @@ function check2() {
             document.getElementById('input_resposta2').disabled = true
             correto2 = true
             pergunta2.style.color = `rgb(0, 255, 42)`
-            pergunta2.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta2.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta2.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta2.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta2.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta2.style.color = `white`
+            input_resposta2.style.color = `black`
             resposta_correta()
             organizar_letras_resposta2()
             
@@ -65,10 +65,10 @@ function check3() {
             document.getElementById('input_resposta3').disabled = true
             correto3 = true
             pergunta3.style.color = `rgb(0, 255, 42)`
-            pergunta3.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta3.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta3.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta3.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta3.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta3.style.color = `white`
+            input_resposta3.style.color = `black`
             resposta_correta()
             organizar_letras_resposta3()
             
@@ -88,10 +88,10 @@ function check4() {
             document.getElementById('input_resposta4').disabled = true
             correto4 = true
             pergunta4.style.color = `rgb(0, 255, 42)`
-            pergunta4.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta4.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta4.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta4.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta4.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta4.style.color = `white`
+            input_resposta4.style.color = `black`
             resposta_correta()
             organizar_letras_resposta4()
             
@@ -111,10 +111,10 @@ function check5() {
             document.getElementById('input_resposta5').disabled = true
             correto5 = true
             pergunta5.style.color = `rgb(0, 255, 42)`
-            pergunta5.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta5.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta5.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta5.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta5.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta5.style.color = `white`
+            input_resposta5.style.color = `black`
             resposta_correta()
             organizar_letras_resposta5()
             
@@ -134,10 +134,10 @@ function check6() {
             document.getElementById('input_resposta6').disabled = true
             correto6 = true
             pergunta6.style.color = `rgb(0, 255, 42)`
-            pergunta6.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta6.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta6.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta6.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta6.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta6.style.color = `white`
+            input_resposta6.style.color = `black`
             resposta_correta()
             organizar_letras_resposta6()
             
@@ -157,10 +157,10 @@ function check7() {
             document.getElementById('input_resposta7').disabled = true
             correto7 = true
             pergunta7.style.color = `rgb(0, 255, 42)`
-            pergunta7.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta7.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta7.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta7.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta7.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta7.style.color = `white`
+            input_resposta7.style.color = `black`
             resposta_correta()
             organizar_letras_resposta7()
             
@@ -180,10 +180,10 @@ function check8() {
             document.getElementById('input_resposta8').disabled = true
             correto8 = true
             pergunta8.style.color = `rgb(0, 255, 42)`
-            pergunta8.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta8.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta8.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta8.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta8.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta8.style.color = `white`
+            input_resposta8.style.color = `black`
             resposta_correta()
             organizar_letras_resposta8()
             
@@ -203,10 +203,10 @@ function check9() {
             document.getElementById('input_resposta9').disabled = true
             correto9 = true
             pergunta9.style.color = `rgb(0, 255, 42)`
-            pergunta9.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta9.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta9.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta9.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta9.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta9.style.color = `white`
+            input_resposta9.style.color = `black`
             resposta_correta()
             organizar_letras_resposta9()
             
@@ -226,10 +226,10 @@ function check10() {
             document.getElementById('input_resposta10').disabled = true
             correto10 = true
             pergunta10.style.color = `rgb(0, 255, 42)`
-            pergunta10.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta10.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta10.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta10.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta10.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta10.style.color = `white`
+            input_resposta10.style.color = `black`
             resposta_correta()
             organizar_letras_resposta10()
             desaparecer()
@@ -249,10 +249,10 @@ function check11() {
             document.getElementById('input_resposta11').disabled = true
             correto11 = true
             pergunta11.style.color = `rgb(0, 255, 42)`
-            pergunta11.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta11.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta11.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta11.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta11.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta11.style.color = `white`
+            input_resposta11.style.color = `black`
             resposta_correta()
             organizar_letras_resposta11()
             desaparecer()
@@ -272,10 +272,10 @@ function check12() {
             document.getElementById('input_resposta12').disabled = true
             correto12 = true
             pergunta12.style.color = `rgb(0, 255, 42)`
-            pergunta12.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta12.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta12.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta12.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta12.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta12.style.color = `white`
+            input_resposta12.style.color = `black`
             resposta_correta()
             organizar_letras_resposta12()
             desaparecer()
@@ -295,10 +295,10 @@ function check13() {
             document.getElementById('input_resposta13').disabled = true
             correto13 = true
             pergunta13.style.color = `rgb(0, 255, 42)`
-            pergunta13.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
-            input_resposta13.style.backgroundColor = `rgb(150, 150, 150)`
+            // pergunta13.style.textShadow = `2px 2px 5px rgb(43, 255, 78)`
+            input_resposta13.style.backgroundColor = `rgb(255, 255, 255)`
             input_resposta13.style.borderColor = `rgb(0, 163, 16)`
-            input_resposta13.style.color = `white`
+            input_resposta13.style.color = `black`
             resposta_correta()
             organizar_letras_resposta13()
             desaparecer()
@@ -315,8 +315,30 @@ function check13() {
 
 
     function resposta_errada() {
-        console.log('errado')
+        var resp = document.getElementById("resp")
+        var vidas = document.getElementsByClassName("vidas_img")
+
+        if (vidas.length != 1) {
+            vidas[0].remove()
+            resp.classList.add("active")
+            resp.innerHTML = `
+                <h2 class="resp_title">Resposta errada!</h2>
+                <h2 class="resp_vidas">${vidas.length} vidas restantes</h2>
+                <button class="resp_btn" onclick="closeResp()">Fechar</button>                     
+            `
+        }else{
+            vidas[0].remove()
+            resp.classList.add("active")
+            resp.innerHTML = `
+                <h2 class="resp_title">Fim de jogo</h2>
+                <a class="resp_btn" href="Palavras-cruzadas.html">Reiniciar</a>                     
+            `
+        }
+
         desaparecer()
+    }
+    function closeResp() {
+        resp.classList.remove("active")
     }
 
     function resposta_correta() {

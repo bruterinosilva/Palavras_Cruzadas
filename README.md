@@ -1,2 +1,2 @@
 # palavras-cruzadas
-Projeto de palavras-cruzadas com respostas de partes do computador. Projeto de Arquitetura Computacional
+Jogo de palavras cruzadas sobre Arquitetura Computacional com visual inspirado em Pixel Art.

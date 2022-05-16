@@ -5,9 +5,9 @@
     font-family: 'Righteous', cursive;
 }
 
-header{
-    background: rgb(218,145,224);
-    background: linear-gradient(90deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+header {
+    background: rgb(218, 145, 224);
+    background: linear-gradient(90deg, rgba(218, 145, 224, 1) 0%, rgba(72, 119, 179, 1) 100%);
     padding: 10px 0;
     border-bottom: solid 6px #4A3F5B;
     display: flex;
@@ -15,7 +15,7 @@ header{
     align-items: center;
 }
 
-#resp{
+#resp {
     position: fixed;
     margin-left: auto;
     margin-right: auto;
@@ -28,34 +28,36 @@ header{
     border: solid 3px #4A3F5B;
     border-radius: 15px;
     width: 300px;
-    background: rgb(218,145,224);
-    background: linear-gradient(90deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+    background: rgb(218, 145, 224);
+    background: linear-gradient(90deg, rgba(218, 145, 224, 1) 0%, rgba(72, 119, 179, 1) 100%);
     padding: 10px;
     opacity: 0;
     transition: 0.5s;
 }
 
-#resp.active{
+#resp.active {
     opacity: 1;
 }
 
-.resp_title, .resp_vidas{
+.resp_title,
+.resp_vidas {
     color: #4A3F5B;
     margin-bottom: 5px;
 }
-.resp_btn{
+
+.resp_btn {
     margin-top: 10px;
     padding: 5px 10px;
     border: 3px solid #4A3F5B;
     border-radius: 15px;
     cursor: pointer;
-    transition: 0.5s ;
+    transition: 0.5s;
     background: #da91e0;
     color: #4A3F5B;
     text-decoration: none;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-image: url("img/fundo_pixel.jpg");
@@ -65,11 +67,11 @@ body{
     position: relative;
 }
 
-.corpo{
+.corpo {
     padding: 0 20px;
     border: 5px solid #4A3F5B;
     border-radius: 30px;
-    background-color:  #4877b3e3;
+    background-color: #4877b3e3;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -77,9 +79,9 @@ body{
     margin-top: 50px;
 }
 
-footer{
-    background: rgb(218,145,224);
-    background: linear-gradient(90deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+footer {
+    background: rgb(218, 145, 224);
+    background: linear-gradient(90deg, rgba(218, 145, 224, 1) 0%, rgba(72, 119, 179, 1) 100%);
     padding: 20px 0;
     margin-top: 20px;
     border-top: solid 6px #4A3F5B;
@@ -91,8 +93,8 @@ footer h2 {
     color: #4A3F5B;
 }
 
-h1{
-    text-align:start;
+h1 {
+    text-align: start;
     color: #4A3F5B;
     font-size: 30px;
 }
@@ -101,7 +103,7 @@ h1{
     width: 40px;
 }
 
-.class_perguntas{
+.class_perguntas {
     display: flex;
     flex-direction: column;
     font-size: 20px;
@@ -110,29 +112,30 @@ h1{
     max-height: 602px;
     overflow-y: scroll;
 }
-.class_perguntas_box{
+
+.class_perguntas_box {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
 
-.class_perguntas_box button{
+.class_perguntas_box button {
     margin-left: 20px;
     border: 3px solid #4A3F5B;
     border-radius: 15px;
     padding: 5px 10px;
     cursor: pointer;
-    transition: 0.5s ;
+    transition: 0.5s;
     background: #da91e0;
     color: #4A3F5B;
 }
 
 
-.class_perguntas_box button:hover{
-    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+.class_perguntas_box button:hover {
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.75);
 }
 
-.pergunta_geral{
+.pergunta_geral {
     margin-top: 15px;
     margin-right: 20px;
     padding-bottom: 20px;
@@ -140,25 +143,27 @@ h1{
     display: flex;
     flex-direction: column;
 }
-.pergunta_geral span{
+
+.pergunta_geral span {
     font-size: 16px;
 }
 
-#div_resposta{
+#div_resposta {
     font-size: 20px;
     transition: 1s;
     opacity: 0;
 }
 
 
-.input_de_pergunta{
+.input_de_pergunta {
     width: 150px;
-    border: 2px solid #4A3F5B;;
+    border: 2px solid #4A3F5B;
+    ;
     border-radius: 6px;
     padding: 5px 10px;
 }
 
-.palavras-cruzadas{
+.palavras-cruzadas {
     width: 750px;
     height: 600px;
     display: flex;
@@ -166,12 +171,13 @@ h1{
     justify-content: center;
     border-radius: 10px;
 }
-.table{
+
+.table {
     border-spacing: 0;
-    border-collapse:unset;
+    border-collapse: unset;
 }
 
-.desativado{
+.desativado {
     height: 38px;
     width: 38px;
     border: none;
@@ -181,7 +187,8 @@ h1{
     font-size: 30px;
     color: white;
 }
-.bloco_resposta{
+
+.bloco_resposta {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,7 +200,8 @@ h1{
     box-shadow: 2px 2px 3px;
     font-size: 0;
 }
-.letra{
+
+.letra {
     font-size: 24px;
     color: black;
     height: 30px;
@@ -202,10 +210,12 @@ h1{
     transition: 0.8s;
     opacity: 0;
 }
-@keyframes fadeIn{
+
+@keyframes fadeIn {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -222,10 +232,10 @@ h1{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(218,145,224);
-    background: linear-gradient(180deg, rgba(218,145,224,1) 0%, rgba(72,119,179,1) 100%);
+    background: rgb(218, 145, 224);
+    background: linear-gradient(180deg, rgba(218, 145, 224, 1) 0%, rgba(72, 119, 179, 1) 100%);
     border: 2px solid #4A3F5B;
-    
+
 }
 
 /* Handle on hover */

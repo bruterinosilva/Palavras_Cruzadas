@@ -90,7 +90,7 @@ function check4() {
 
     }
     else {
-        input_resposta4.value = `teste`
+        input_resposta4.value = ``
         resposta_errada()
 
     }

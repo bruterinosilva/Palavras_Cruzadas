@@ -58,7 +58,7 @@ header{
 body{
     margin: 0;
     padding: 0;
-    background-image: url("./fundo_pixel.jpg");
+    background-image: url("img/fundo_pixel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
